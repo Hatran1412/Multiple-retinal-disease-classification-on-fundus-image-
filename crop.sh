@@ -4,10 +4,10 @@ python preprocessing_data/image_cropping.py\
   -- destination_folder './dataset/data_preprocessing/training_set/training_cropped'\
   #-- cpus 4\
   
-echo "parse testing cropping"
-python preprocessing_data/image_cropping.py\
-  -- source_folder './dataset/rfmid/Test_Set/Testing'\
-  -- destination_folder './dataset/data_preprocessing/testing_set/testing_cropped'\
+#echo "parse testing cropping"
+#python preprocessing_data/image_cropping.py\
+#  -- source_folder './dataset/rfmid/Test_Set/Testing'\
+#  -- destination_folder './dataset/data_preprocessing/testing_set/testing_cropped'\
   #-- cpus 4\
 
 echo "parse validation cropping"
